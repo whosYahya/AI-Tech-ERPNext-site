@@ -1,0 +1,32 @@
+{
+  "doctype": "DocType",
+  "name": "Course Enrollment",
+  "module": "Jobs",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "student_name",
+      "label": "Student Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "course_name",
+      "label": "Course Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ],
+  "istable": 0,
+  "is_submittable": 0,
+  "editable_grid": 1
+}
