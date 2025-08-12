@@ -1,4 +1,3 @@
-apps/*/.git
 sites/*/site_config.json
 sites/*/private
 sites/*/public/files
