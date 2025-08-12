@@ -1,0 +1,44 @@
+2025-07-30 06:01:39,912 INFO ipython === bench console session ===
+2025-07-30 06:01:39,912 INFO ipython import frappe
+2025-07-30 06:01:39,912 INFO ipython doc = frappe.get_doc(frappe.parse_json_path("aitalent.jobs.doctype.applications.applications.json"))
+2025-07-30 06:01:39,913 INFO ipython doc.insert()
+2025-07-30 06:01:39,913 INFO ipython frappe.db.commit()
+2025-07-30 06:01:39,913 INFO ipython === session end ===
+2025-07-30 06:04:48,773 INFO ipython === bench console session ===
+2025-07-30 06:04:48,774 INFO ipython import frappe
+2025-07-30 06:04:48,774 INFO ipython import json
+2025-07-30 06:04:48,774 INFO ipython from pathlib import Path
+2025-07-30 06:04:48,774 INFO ipython # Path to your applications.json
+2025-07-30 06:04:48,774 INFO ipython path = Path("apps/aitalent/aitalent/jobs/doctype/applications/applications.json")
+2025-07-30 06:04:48,775 INFO ipython with open(path) as f:
+        doc = frappe.get_doc(json.load(f))
+        
+2025-07-30 06:04:48,775 INFO ipython doc.insert()
+2025-07-30 06:04:48,775 INFO ipython frappe.db.commit()
+2025-07-30 06:04:48,775 INFO ipython === session end ===
+2025-07-30 06:11:50,526 INFO ipython === bench console session ===
+2025-07-30 06:11:50,526 INFO ipython import frappe
+2025-07-30 06:11:50,526 INFO ipython import json
+2025-07-30 06:11:50,526 INFO ipython from pathlib import Path
+2025-07-30 06:11:50,526 INFO ipython path = Path("/home/dello/frappe-project/ait-bench/apps/aitalent/aitalent/jobs/doctype/applications/applications.json")
+2025-07-30 06:11:50,527 INFO ipython with open(path) as f:
+        doc = frappe.get_doc(json.load(f))
+        
+2025-07-30 06:11:50,527 INFO ipython doc.insert()
+2025-07-30 06:11:50,527 INFO ipython frappe.get_doc({
+    "doctype": "Module Def",
+        "module_name": "Jobs",
+            "app_name": "aitalent",
+                "app": "aitalent"
+                }).insert()
+2025-07-30 06:11:50,527 INFO ipython frappe.db.commit()
+2025-07-30 06:11:50,527 INFO ipython path = Path("/home/dello/frappe-project/ait-bench/apps/aitalent/aitalent/jobs/doctype/applications/applications.json")
+2025-07-30 06:11:50,527 INFO ipython with open(path) as f:
+        doc = frappe.get_doc(json.load(f))
+        
+2025-07-30 06:11:50,527 INFO ipython doc.insert()
+2025-07-30 06:11:50,527 INFO ipython === session end ===
+2025-08-05 11:45:17,254 INFO ipython === bench console session ===
+2025-08-05 11:45:17,262 INFO ipython doc = frappe.get_doc("Applications", "APP-00002")
+2025-08-05 11:45:17,263 INFO ipython doc.on_submit()
+2025-08-05 11:45:17,263 INFO ipython === session end ===

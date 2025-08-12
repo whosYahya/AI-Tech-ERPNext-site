@@ -1,0 +1,66 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250730_113009-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-07-30 11:30:15.143130
+Config  : ./aitech.local/private/backups/20250730_113009-aitech_local-site_config_backup.json 94.0B
+Database: ./aitech.local/private/backups/20250730_113009-aitech_local-database.sql.gz         843.7KiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250731_113012-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-07-31 11:30:20.482532
+Config  : ./aitech.local/private/backups/20250731_113012-aitech_local-site_config_backup.json 116.0B
+Database: ./aitech.local/private/backups/20250731_113012-aitech_local-database.sql.gz         875.8KiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250801_113006-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-01 11:30:11.446175
+Config  : ./aitech.local/private/backups/20250801_113006-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250801_113006-aitech_local-database.sql.gz         1019.3KiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250801_173003-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-01 17:30:11.500625
+Config  : ./aitech.local/private/backups/20250801_173003-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250801_173003-aitech_local-database.sql.gz         1.0MiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250804_113007-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-04 11:30:15.471609
+Config  : ./aitech.local/private/backups/20250804_113007-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250804_113007-aitech_local-database.sql.gz         1.0MiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250804_173003-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-04 17:30:09.625551
+Config  : ./aitech.local/private/backups/20250804_173003-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250804_173003-aitech_local-database.sql.gz         1.0MiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250805_113005-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-05 11:30:15.171234
+Config  : ./aitech.local/private/backups/20250805_113005-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250805_113005-aitech_local-database.sql.gz         1.0MiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250810_233008-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-10 23:30:18.283017
+Config  : ./aitech.local/private/backups/20250810_233008-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250810_233008-aitech_local-database.sql.gz         1.0MiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250811_113015-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-11 11:30:34.789580
+Config  : ./aitech.local/private/backups/20250811_113015-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250811_113015-aitech_local-database.sql.gz         1.0MiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250811_173007-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-11 17:30:20.061456
+Config  : ./aitech.local/private/backups/20250811_173007-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250811_173007-aitech_local-database.sql.gz         1.0MiB
+Backup for Site aitech.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_914f1f65032fcbf7 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _914f1f65032fcbf7 | /usr/bin/gzip >> ./aitech.local/private/backups/20250812_113004-aitech_local-database.sql.gz
+
+Backup Summary for aitech.local at 2025-08-12 11:30:09.681675
+Config  : ./aitech.local/private/backups/20250812_113004-aitech_local-site_config_backup.json 180.0B
+Database: ./aitech.local/private/backups/20250812_113004-aitech_local-database.sql.gz         1.0MiB
+Backup for Site aitech.local has been successfully completed

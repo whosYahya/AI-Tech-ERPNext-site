@@ -1,0 +1,289 @@
+2025-07-29 12:53:08,213 DEBUG cd ait-bench && python3 -m venv env
+2025-07-29 12:53:13,564 DEBUG cd ait-bench && /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-07-29 12:53:16,174 DEBUG cd ait-bench && /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet wheel
+2025-07-29 12:53:18,383 LOG Getting frappe
+2025-07-29 12:53:18,383 DEBUG cd ait-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-07-29 12:53:25,361 LOG Installing frappe
+2025-07-29 12:53:25,364 DEBUG cd /home/dello/frappe-project/ait-bench && /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet --upgrade -e /home/dello/frappe-project/ait-bench/apps/frappe 
+2025-07-29 12:54:33,724 DEBUG cd /home/dello/frappe-project/ait-bench/apps/frappe && yarn install --check-files
+2025-07-29 12:55:16,094 DEBUG cd ait-bench && bench build
+2025-07-29 12:55:16,290 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-29 12:55:57,148 LOG setting up backups
+2025-07-29 12:55:57,871 LOG backups were set up
+2025-07-29 12:55:57,872 INFO Bench ait-bench initialized
+2025-07-29 12:57:24,557 INFO /home/dello/frappe-project/frappe-env/bin/bench get-app erpnext --branch version-15
+2025-07-29 12:57:25,098 LOG Getting erpnext
+2025-07-29 12:57:25,100 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-07-29 12:57:31,596 LOG Installing erpnext
+2025-07-29 12:57:31,597 DEBUG cd /home/dello/frappe-project/ait-bench && /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet --upgrade -e /home/dello/frappe-project/ait-bench/apps/erpnext 
+2025-07-29 12:57:40,678 DEBUG cd /home/dello/frappe-project/ait-bench/apps/erpnext && yarn install --check-files
+2025-07-29 12:57:41,337 DEBUG bench build --app erpnext
+2025-07-29 12:57:41,531 INFO /home/dello/frappe-project/frappe-env/bin/bench build --app erpnext
+2025-07-29 12:58:14,552 INFO /home/dello/frappe-project/frappe-env/bin/bench new-site aitech.local
+2025-07-29 13:03:15,755 INFO /home/dello/frappe-project/frappe-env/bin/bench new-site aitech.local
+2025-07-29 13:04:28,357 INFO /home/dello/frappe-project/frappe-env/bin/bench drop-site aitech.local
+2025-07-29 13:05:02,786 INFO /home/dello/frappe-project/frappe-env/bin/bench drop-site aitech.local --force
+2025-07-29 13:06:48,622 INFO /home/dello/frappe-project/frappe-env/bin/bench new-site aitech.local
+2025-07-29 13:14:26,850 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local install-app erpnext
+2025-07-29 13:17:20,423 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-07-29 13:17:21,083 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-07-29 13:17:21,106 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-07-29 13:17:21,192 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-07-29 13:17:21,281 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-07-29 13:23:12,903 INFO /home/dello/frappe-project/frappe-env/bin/bench use aitech.local
+2025-07-29 13:24:56,395 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-29 13:26:35,021 INFO /home/dello/frappe-project/frappe-env/bin/bench doctor
+2025-07-29 13:26:57,042 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-29 13:28:13,353 INFO /home/dello/frappe-project/frappe-env/bin/bench setup requirements
+2025-07-29 13:28:13,368 DEBUG /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-07-29 13:28:15,193 LOG Installing frappe
+2025-07-29 13:28:15,194 DEBUG cd /home/dello/frappe-project/ait-bench && /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet --upgrade -e /home/dello/frappe-project/ait-bench/apps/frappe 
+2025-07-29 13:28:19,525 DEBUG cd /home/dello/frappe-project/ait-bench/apps/frappe && yarn install --check-files
+2025-07-29 13:28:25,801 LOG Installing erpnext
+2025-07-29 13:28:25,801 DEBUG cd /home/dello/frappe-project/ait-bench && /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet --upgrade -e /home/dello/frappe-project/ait-bench/apps/erpnext 
+2025-07-29 13:28:29,431 DEBUG cd /home/dello/frappe-project/ait-bench/apps/erpnext && yarn install --check-files
+2025-07-29 13:28:43,738 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-29 13:28:52,235 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-07-29 13:28:52,904 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-07-29 13:28:52,922 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-07-29 13:28:52,997 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-07-29 13:28:53,248 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-07-30 04:45:03,090 INFO /home/dello/frappe-project/frappe-env/bin/bench new-app aitalent
+2025-07-30 04:45:03,102 LOG creating new app aitalent
+2025-07-30 04:49:10,376 LOG Installing aitalent
+2025-07-30 04:49:10,381 DEBUG cd /home/dello/frappe-project/ait-bench && /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet --upgrade -e /home/dello/frappe-project/ait-bench/apps/aitalent 
+2025-07-30 04:49:14,288 DEBUG bench build --app aitalent
+2025-07-30 04:49:14,583 INFO /home/dello/frappe-project/frappe-env/bin/bench build --app aitalent
+2025-07-30 04:49:45,293 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local install-app aitalent
+2025-07-30 04:51:28,495 INFO /home/dello/frappe-project/frappe-env/bin/bench make-module jobs aitalent
+2025-07-30 05:16:01,829 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 05:16:08,854 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-07-30 05:16:09,506 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-07-30 05:16:09,507 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-07-30 05:16:09,508 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-07-30 05:16:09,544 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-07-30 05:16:51,370 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 05:19:10,803 INFO /home/dello/frappe-project/frappe-env/bin/bench make-doctype Applications --module jobs --custom --fields [
+    {"fieldname":"full_name","fieldtype":"Data","label":"Full Name"},
+    {"fieldname":"email","fieldtype":"Data","label":"Email"},
+    {"fieldname":"phone","fieldtype":"Data","label":"Phone"},
+    {"fieldname":"resume","fieldtype":"Attach","label":"Resume"},
+    {"fieldname":"skills","fieldtype":"Small Text","label":"Skills"},
+    {"fieldname":"experience","fieldtype":"Text","label":"Experience"}
+  ] --create-desk
+2025-07-30 05:20:24,887 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local frappe make-doctype Applications --module jobs --custom --fields [{"fieldname":"full_name","fieldtype":"Data","label":"Full Name"},{"fieldname":"email","fieldtype":"Data","label":"Email"},{"fieldname":"phone","fieldtype":"Data","label":"Phone"},{"fieldname":"resume","fieldtype":"Attach","label":"Resume"},{"fieldname":"skills","fieldtype":"Small Text","label":"Skills"},{"fieldname":"experience","fieldtype":"Text","label":"Experience"}] --create-desk
+2025-07-30 05:44:12,706 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local reload-doc aitalent jobs doctype applications
+2025-07-30 05:45:12,320 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local reload-doc aitalent jobs doctype applications --force
+2025-07-30 05:45:29,001 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 05:45:50,834 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-30 05:59:34,616 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local reload-doc aitalent jobs doctype applications --force
+2025-07-30 05:59:41,292 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local reload-doc aitalent jobs doctype applications.json --doctype Applications --force
+2025-07-30 06:00:05,107 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-07-30 06:00:35,816 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local reload-doc aitalent jobs doctype applications
+2025-07-30 06:01:16,299 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local console
+2025-07-30 06:03:36,363 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local console
+2025-07-30 06:06:06,008 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local console
+2025-07-30 06:12:08,013 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 06:12:27,295 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-30 06:19:30,496 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 06:22:16,767 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 06:22:32,561 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-30 07:40:48,731 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 07:41:11,676 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-30 09:22:43,669 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local reload-doc aitalent jobs web_form applications_form
+2025-07-30 09:24:35,543 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local clear-cache
+2025-07-30 09:24:52,098 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 09:30:04,517 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-30 09:35:07,854 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 09:35:26,568 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-30 09:44:15,229 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local clear-cache
+2025-07-30 09:44:17,322 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 09:44:32,838 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-30 10:28:41,668 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 10:56:43,310 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 10:57:44,891 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 11:17:05,997 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 11:18:39,831 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 11:19:42,257 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-30 11:19:47,020 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 11:25:52,232 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 12:14:24,971 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 12:15:47,955 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local new-doctype --module Jobs --custom --fields [{"fieldname":"skill_name","fieldtype":"Data","label":"Skill","reqd":1}] --iscustom 0 --istable 1 Skills
+2025-07-30 12:25:52,117 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 12:26:37,105 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-30 12:26:59,629 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 04:54:04,272 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-07-31 04:54:05,272 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-07-31 04:54:05,441 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-07-31 04:54:05,443 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-07-31 04:54:05,467 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-07-31 04:55:56,185 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 04:57:25,479 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 04:57:32,991 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-31 04:57:52,407 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 05:38:19,895 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 05:39:52,264 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 05:40:14,676 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-31 05:40:33,595 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 05:46:29,835 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-31 05:46:47,846 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 06:00:10,010 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-07-31 06:11:07,071 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 06:20:07,896 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 06:20:16,156 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local clear-website-cache
+2025-07-31 06:20:22,462 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 06:32:24,829 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 06:35:23,602 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 06:35:28,176 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 06:42:04,021 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 06:43:15,454 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 06:43:19,211 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 06:47:45,737 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 06:52:40,740 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 06:52:44,453 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 07:34:51,397 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 07:38:53,674 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 07:38:58,862 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 07:56:43,208 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 08:01:21,231 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 08:01:24,112 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 08:04:01,562 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 08:05:32,828 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 08:05:40,590 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 08:27:22,974 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 08:30:49,175 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 08:30:52,506 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 08:35:53,031 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 08:36:34,811 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 08:36:35,879 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 08:36:46,595 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 09:12:07,737 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 09:15:25,959 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 09:17:43,483 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 09:19:13,801 INFO /home/dello/frappe-project/frappe-env/bin/bench list-apps
+2025-07-31 09:31:36,407 INFO /home/dello/frappe-project/frappe-env/bin/bench --site yoursite migrate
+2025-07-31 09:32:02,791 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-31 09:32:55,067 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 10:01:27,065 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 10:01:32,321 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 10:03:49,477 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 10:13:02,737 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 10:14:28,424 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 10:14:37,840 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 10:18:07,078 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 10:19:33,997 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 10:19:38,098 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 10:23:52,939 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 10:25:23,633 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 10:25:27,906 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 10:29:13,868 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 10:30:28,606 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 10:30:32,239 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 10:37:35,949 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 10:38:29,377 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 10:38:34,317 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 11:02:08,804 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-31 11:03:08,342 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 11:06:19,281 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 11:08:03,786 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 11:08:09,720 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 11:17:13,910 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 11:18:47,328 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 11:18:55,848 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 11:29:53,046 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-07-31 11:30:35,477 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 11:41:54,128 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 11:44:28,897 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 11:44:34,300 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 11:54:10,893 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 11:56:38,876 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 11:56:41,258 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-07-31 12:37:30,439 INFO /home/dello/frappe-project/frappe-env/bin/bench build
+2025-07-31 12:40:08,217 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-07-31 12:40:10,702 INFO /home/dello/frappe-project/frappe-env/bin/bench clear-cache
+2025-08-01 05:13:43,837 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-08-01 05:13:44,911 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-08-01 05:13:44,930 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-08-01 05:13:44,937 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-08-01 05:13:44,952 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-08-01 05:24:34,728 INFO /home/dello/frappe-project/frappe-env/bin/bench get-app hrms --branch version-15
+2025-08-01 05:24:35,307 LOG Getting hrms
+2025-08-01 05:24:35,308 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch version-15 --depth 1 --origin upstream
+2025-08-01 05:24:38,209 LOG Installing hrms
+2025-08-01 05:24:38,210 DEBUG cd /home/dello/frappe-project/ait-bench && /home/dello/frappe-project/ait-bench/env/bin/python -m pip install --quiet --upgrade -e /home/dello/frappe-project/ait-bench/apps/hrms 
+2025-08-01 05:24:42,372 DEBUG cd /home/dello/frappe-project/ait-bench/apps/hrms && yarn install --check-files
+2025-08-01 05:27:56,327 DEBUG bench build --app hrms
+2025-08-01 05:27:56,787 INFO /home/dello/frappe-project/frappe-env/bin/bench build --app hrms
+2025-08-01 05:29:35,887 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local install-app hrms
+2025-08-01 05:35:04,113 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local install-app hrms
+2025-08-01 05:48:52,291 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 05:49:04,155 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-08-01 05:49:05,312 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-08-01 05:49:05,407 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-08-01 05:49:05,532 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-08-01 05:49:05,556 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-08-01 05:49:23,872 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 05:52:07,721 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 05:53:04,962 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 05:54:05,627 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:00:03,631 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-08-01 06:18:59,146 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 06:19:19,623 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:29:17,716 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 06:29:32,913 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:34:09,924 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:34:34,600 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 06:34:50,983 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:36:56,038 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:40:36,772 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 06:40:51,594 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:42:08,266 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 06:42:28,916 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:44:04,050 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 06:50:34,689 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 06:50:50,989 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 07:07:53,812 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 09:37:47,580 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 09:40:45,495 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 09:46:29,027 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 09:50:18,170 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-01 09:51:42,447 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-01 12:00:01,664 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-08-04 05:16:26,183 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-08-04 05:16:26,742 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-08-04 05:16:26,766 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-08-04 05:16:26,768 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-08-04 05:16:26,795 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-08-04 06:00:02,318 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-08-04 12:00:02,120 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-08-05 05:00:32,821 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-08-05 05:00:33,779 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-08-05 05:00:33,797 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-08-05 05:00:33,828 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-08-05 05:00:33,883 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-08-05 06:00:02,660 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-08-05 11:23:01,476 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-05 11:43:14,721 INFO /home/dello/frappe-project/frappe-env/bin/bench --site your-site-name console
+2025-08-05 11:43:52,770 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local console
+2025-08-05 12:43:20,888 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-06 06:01:22,111 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-08-06 06:01:25,650 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-08-06 06:01:25,876 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-08-06 06:01:25,983 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-08-06 06:01:26,034 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-08-06 07:37:41,250 INFO /home/dello/frappe-project/frappe-env/bin/bench --site aitech.local migrate
+2025-08-06 07:38:04,641 INFO /home/dello/frappe-project/frappe-env/bin/bench restart
+2025-08-08 12:25:03,649 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-08-08 12:25:04,271 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-08-08 12:25:04,276 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-08-08 12:25:04,290 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-08-08 12:25:04,317 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-08-10 18:00:06,066 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-08-11 06:00:06,977 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-08-11 12:00:02,102 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup
+2025-08-12 05:58:04,009 INFO /home/dello/frappe-project/frappe-env/bin/bench start
+2025-08-12 05:58:04,573 INFO /home/dello/frappe-project/frappe-env/bin/bench serve --port 8000
+2025-08-12 05:58:04,578 INFO /home/dello/frappe-project/frappe-env/bin/bench schedule
+2025-08-12 05:58:04,633 INFO /home/dello/frappe-project/frappe-env/bin/bench worker
+2025-08-12 05:58:04,698 INFO /home/dello/frappe-project/frappe-env/bin/bench watch
+2025-08-12 06:00:02,810 INFO /home/dello/frappe-project/frappe-env/bin/bench --verbose --site all backup

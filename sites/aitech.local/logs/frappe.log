@@ -1,0 +1,138 @@
+2025-07-30 07:43:36,001 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 07:58:15,202 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"johndoe@example.com","phone":"1234576894","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 07:58:20,403 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"johndoe@example.com","phone":"1234576894","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 07:58:22,995 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"johndoe@example.com","phone":"1234576894","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 07:59:21,388 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 07:59:26,311 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 07:59:27,810 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 07:59:30,680 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 08:01:21,506 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 08:01:23,435 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 08:03:21,958 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 08:03:24,159 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 08:03:30,316 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 08:03:33,285 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:13:49,909 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:13:51,095 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:13:53,223 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:13:53,764 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:13:54,491 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:13:55,348 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:15:40,553 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"yahya ","email":"shaikh@example.com","phone":"8884442223","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:15:44,248 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"yahya ","email":"shaikh@example.com","phone":"8884442223","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:15:45,172 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"yahya ","email":"shaikh@example.com","phone":"8884442223","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:17:47,371 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"yahya ","email":"shaikh@example.com","phone":"8884442223","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:17:48,079 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"yahya ","email":"shaikh@example.com","phone":"8884442223","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:29:48,340 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:29:51,406 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:30:23,017 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:30:25,485 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:30:28,167 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:32:21,767 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"doctype":"Applications","web_form_name":"Applications Form","full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:32:24,704 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"doctype":"Applications","web_form_name":"Applications Form","full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:32:30,422 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"doctype":"Applications","web_form_name":"Applications Form","full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:39,742 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:43,077 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:43,646 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:45,280 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:45,877 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:46,392 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:46,891 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:47,377 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-07-30 09:37:49,039 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'data': '{"full_name":"John Doe","email":"john.doe@example.com","phone":"+1 234 567 8901","resume":"/private/files/John Doe resume.pdf","doctype":"Applications","web_form_name":"Applications Form"}', 'web_form': 'Applications Form', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2025-08-05 06:37:10,056 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'doctype': 'Applications', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-08-05 06:53:16,902 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'doctype': 'Applications', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-08-05 06:53:24,593 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'doctype': 'Applications', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-08-05 06:55:53,109 ERROR frappe New Exception collected in error log
+Site: aitech.local
+Form Dict: {'doc': '{"name":"e1rk0ielia","owner":"aitech@gmail.com","creation":"2025-08-01 12:01:21.100283","modified":"2025-08-01 12:03:33.208324","modified_by":"aitech@gmail.com","docstatus":0,"idx":0,"full_name":"Arthur Melo","email":"meloplayer@example.com","phone":"3197457779","resume":"","experience":"hkhkhk","doctype":"Applications","skills_table":[],"__last_sync_on":"2025-08-05T06:55:49.470Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
